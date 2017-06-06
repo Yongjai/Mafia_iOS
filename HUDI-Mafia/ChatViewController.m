@@ -56,6 +56,9 @@
 }
 
 
+//*  여기부터 코드가 정말... 답이 없습니다ㅎㅎ  *//
+//*  Websocket을 이용하는 메소드들을 클래스를 하나 만들어서 빼든지 해야할 것 같습니다.  *//
+
 - (void) sendMsg {
     NSString *nickName = @"yongjai";
     NSURL *webSocketURL = [NSURL URLWithString:@"ws://211.249.60.54:80/websockethandler/websocket"];
@@ -451,7 +454,6 @@
         _sendBtn.enabled = YES;
     } else {
         [self sendMsg];
-//        [_chatTable reloadData];
         _chatTextField.text = @"";
     }
 }
