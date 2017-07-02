@@ -360,7 +360,7 @@
            }];
 }
 
-//방에 한명만 남았을 때 그 사람이 나가면 방을 없애주는 API
+//방에 한명만 남았을 때 그 사람이 나가면 방을 없애주기
 //- (void) exitRoom {
 //    NSString *URLString = @"http://211.249.60.54:8000/api/room";
 //    NSURL *URL = [NSURL URLWithString:URLString];

@@ -79,7 +79,8 @@
         cell.roomTitle.text = [_roomTitle objectAtIndex:indexPath.row];
         cell.roomId.text = [NSString stringWithFormat:@"NO.%@",[_roomNum objectAtIndex:indexPath.row]];
         cell.userCount.text = [NSString stringWithFormat:@"%@ / 8",[_userCount objectAtIndex:indexPath.row]];
-    } 
+    }
+    
     return  cell;
 }
 
@@ -120,7 +121,6 @@
     
     NSMutableArray *data = [NSJSONSerialization JSONObjectWithData:createRoomResultData options:NSJSONReadingMutableContainers error:nil];
     _createdRoomId = [data valueForKey:@"roomId"];
-    NSLog(@"에베베베베베베베%@", _createdRoomId);
     [self enterRoomByCreateRoom];
     [self performSegueWithIdentifier:@"chatSegue" sender:self];
 }
@@ -148,8 +148,6 @@
 }
 
 
-
-
 - (void) enterRoom {
     NSIndexPath *indexpath = [self.roomListTable indexPathForSelectedRow];
     NSString *selectedNum = [_roomNum objectAtIndex:indexpath.row];
@@ -169,7 +167,6 @@
 
 
 - (void) enterRoomByCreateRoom {
-    
     NSString *URLString = [NSString stringWithFormat:@"http://211.249.60.54:80/api/room/%@", _createdRoomId];
     NSURL *URL = [NSURL URLWithString:URLString];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:URL];
