@@ -47,4 +47,4 @@ and, enter http://localhost:8080/ on browser.
 ### Contributors
 * WEB: @JaeYeopHan, @bbq923, @wkddngus5
 * Android: @wlals822
-* iOS: @Yongai
+* iOS: @Yongjai
