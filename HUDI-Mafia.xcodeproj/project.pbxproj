@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		174798A71FAB3A5300EFF50E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174798A31FAB3A5200EFF50E /* LoginViewController.m */; };
+		174798A81FAB3A5300EFF50E /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174798A61FAB3A5300EFF50E /* SignupViewController.m */; };
 		6120306F5BC4D9B4B6C6D548 /* libPods-HUDI-Mafia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE888AAF9A9640BF811D3375 /* libPods-HUDI-Mafia.a */; };
 		7C881DBC1EB601D60055395E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C881DBB1EB601D60055395E /* Assets.xcassets */; };
 		7CA4EAE01E9E0DE800342F93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4EADF1E9E0DE800342F93 /* main.m */; };
@@ -16,12 +18,6 @@
 		7CA4EAEE1E9E0DE800342F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA4EAEC1E9E0DE800342F93 /* LaunchScreen.storyboard */; };
 		7CA4EAF91E9E0DE900342F93 /* HUDI_MafiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4EAF81E9E0DE900342F93 /* HUDI_MafiaTests.m */; };
 		7CA4EB041E9E0DE900342F93 /* HUDI_MafiaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4EB031E9E0DE900342F93 /* HUDI_MafiaUITests.m */; };
-		7CA4EB1B1E9E10A100342F93 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4EB121E9E10A100342F93 /* LoginViewController.m */; };
-		7CA4EB1C1E9E10A100342F93 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4EB121E9E10A100342F93 /* LoginViewController.m */; };
-		7CA4EB1D1E9E10A100342F93 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4EB121E9E10A100342F93 /* LoginViewController.m */; };
-		7CA4EB1E1E9E10A100342F93 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4EB141E9E10A100342F93 /* SignupViewController.m */; };
-		7CA4EB1F1E9E10A100342F93 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4EB141E9E10A100342F93 /* SignupViewController.m */; };
-		7CA4EB201E9E10A100342F93 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4EB141E9E10A100342F93 /* SignupViewController.m */; };
 		7CA4EB571EA07FCF00342F93 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4EB561EA07FCF00342F93 /* ChatViewController.m */; };
 		7CA4EB5A1EA0827300342F93 /* LobbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4EB591EA0827300342F93 /* LobbyViewController.m */; };
 		7CA4EB5D1EA082B800342F93 /* RoomListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4EB5C1EA082B800342F93 /* RoomListTableViewCell.m */; };
@@ -47,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		174798A31FAB3A5200EFF50E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		174798A41FAB3A5200EFF50E /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		174798A51FAB3A5300EFF50E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		174798A61FAB3A5300EFF50E /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
 		35C972D4523A0CE736F5F1C7 /* Pods-HUDI-Mafia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUDI-Mafia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HUDI-Mafia/Pods-HUDI-Mafia.debug.xcconfig"; sourceTree = "<group>"; };
 		615EDEF31000ADF14FF13273 /* Pods-HUDI-Mafia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUDI-Mafia.release.xcconfig"; path = "Pods/Target Support Files/Pods-HUDI-Mafia/Pods-HUDI-Mafia.release.xcconfig"; sourceTree = "<group>"; };
 		7C881DBB1EB601D60055395E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,10 +65,6 @@
 		7CA4EAFF1E9E0DE900342F93 /* HUDI-MafiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HUDI-MafiaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA4EB031E9E0DE900342F93 /* HUDI_MafiaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDI_MafiaUITests.m; sourceTree = "<group>"; };
 		7CA4EB051E9E0DE900342F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CA4EB111E9E10A100342F93 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "../../../../../Applications/HumanDesignProject/2017-01-HUDI-MAC-CHAR/iOS-MAC-CHAR/Mafia/LoginViewController.h"; sourceTree = "<group>"; };
-		7CA4EB121E9E10A100342F93 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = "../../../../../Applications/HumanDesignProject/2017-01-HUDI-MAC-CHAR/iOS-MAC-CHAR/Mafia/LoginViewController.m"; sourceTree = "<group>"; };
-		7CA4EB131E9E10A100342F93 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = "../../../../../Applications/HumanDesignProject/2017-01-HUDI-MAC-CHAR/iOS-MAC-CHAR/Mafia/SignupViewController.h"; sourceTree = "<group>"; };
-		7CA4EB141E9E10A100342F93 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = "../../../../../Applications/HumanDesignProject/2017-01-HUDI-MAC-CHAR/iOS-MAC-CHAR/Mafia/SignupViewController.m"; sourceTree = "<group>"; };
 		7CA4EB551EA07FCF00342F93 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		7CA4EB561EA07FCF00342F93 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		7CA4EB581EA0827300342F93 /* LobbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LobbyViewController.h; sourceTree = "<group>"; };
@@ -150,10 +146,10 @@
 		7CA4EADD1E9E0DE800342F93 /* HUDI-Mafia */ = {
 			isa = PBXGroup;
 			children = (
-				7CA4EB131E9E10A100342F93 /* SignupViewController.h */,
-				7CA4EB141E9E10A100342F93 /* SignupViewController.m */,
-				7CA4EB111E9E10A100342F93 /* LoginViewController.h */,
-				7CA4EB121E9E10A100342F93 /* LoginViewController.m */,
+				174798A51FAB3A5300EFF50E /* LoginViewController.h */,
+				174798A31FAB3A5200EFF50E /* LoginViewController.m */,
+				174798A41FAB3A5200EFF50E /* SignupViewController.h */,
+				174798A61FAB3A5300EFF50E /* SignupViewController.m */,
 				7CA4EB581EA0827300342F93 /* LobbyViewController.h */,
 				7CA4EB591EA0827300342F93 /* LobbyViewController.m */,
 				7CA4EB5B1EA082B800342F93 /* RoomListTableViewCell.h */,
@@ -387,15 +383,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA4EB1B1E9E10A100342F93 /* LoginViewController.m in Sources */,
 				7CA4EBB21EA67A7300342F93 /* ChatTableViewCell.m in Sources */,
 				7CA4EAE61E9E0DE800342F93 /* ViewController.m in Sources */,
 				7CA4EAE31E9E0DE800342F93 /* AppDelegate.m in Sources */,
 				7CA4EAE01E9E0DE800342F93 /* main.m in Sources */,
+				174798A81FAB3A5300EFF50E /* SignupViewController.m in Sources */,
 				7CA4EB5A1EA0827300342F93 /* LobbyViewController.m in Sources */,
+				174798A71FAB3A5300EFF50E /* LoginViewController.m in Sources */,
 				7CA4EB571EA07FCF00342F93 /* ChatViewController.m in Sources */,
 				7CA4EB5D1EA082B800342F93 /* RoomListTableViewCell.m in Sources */,
-				7CA4EB1E1E9E10A100342F93 /* SignupViewController.m in Sources */,
 				7CB07E911ECB15F20047B69F /* UserCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,8 +400,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA4EB1F1E9E10A100342F93 /* SignupViewController.m in Sources */,
-				7CA4EB1C1E9E10A100342F93 /* LoginViewController.m in Sources */,
 				7CA4EAF91E9E0DE900342F93 /* HUDI_MafiaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,8 +408,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA4EB201E9E10A100342F93 /* SignupViewController.m in Sources */,
-				7CA4EB1D1E9E10A100342F93 /* LoginViewController.m in Sources */,
 				7CA4EB041E9E0DE900342F93 /* HUDI_MafiaUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,6 +542,7 @@
 			baseConfigurationReference = 35C972D4523A0CE736F5F1C7 /* Pods-HUDI-Mafia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "HUDI-Mafia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.nhnnext.HUDI-Mafia";
@@ -562,6 +555,7 @@
 			baseConfigurationReference = 615EDEF31000ADF14FF13273 /* Pods-HUDI-Mafia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "HUDI-Mafia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.nhnnext.HUDI-Mafia";
